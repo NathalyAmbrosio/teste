@@ -1,0 +1,48 @@
+import java.util.Scanner;
+public class Exercicio1 {
+  
+    private static String abcdefghijklmnopqrstuvwxyz;
+    public static void main(String [] args) {
+        Scanner leitor = new Scanner (System.in);
+
+    System.out.println("Digite o númeor para o tanto de linhas: (1 a 26)");
+    int n1 = leitor.nextInt();
+
+    System.out.println("Digite 'maiúscula' ou 'minúscula' " );
+    String n2 = leitor.nextLine();
+    PiramideAlfabetica(n1, n2);    
+
+    }
+    private static void PiramideAlfabetica(int n1, String n2) {
+
+        String alfabeto = "abcdefghijklmnopqrstuvwxyz";
+
+        if(n2.equals("maiúsculas")){
+            alfabeto = alfabeto.toUpperCase();            
+        
+        }
+        for 
+        for
+        for,
+        for,
+        for
+        for
+        for
+        for
+        for
+        for
+        for
+        for, for, for, for, for ,for for, for, for, for, for, for, for, for, for){
+            System.out.println(n1);
+
+        }
+
+        for (int v = 0; v < n1 - v - 1; v++){
+
+        }
+    leitor.close();
+
+        
+    }
+   
+}
